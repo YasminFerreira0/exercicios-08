@@ -2,8 +2,9 @@
 void main (){
     int votos[10] = {0}, i = 0, candidatoVoto=0, vencedor = 0, votosVencedor = 0;
 
+    printf("\nInforme o codigo do candidato ou um numero negativo para sair.\n");
     do {
-        scanf("%d", &candidatoVoto);
+        scanf("%d\n", &candidatoVoto);
         votos[candidatoVoto]++;
     } while(candidatoVoto >= 0);
 
@@ -19,6 +20,7 @@ void main (){
 
     i = 0;
     
+    printf("\nResultado da apuração.\n");
     do {
         printf("Candiadto %d: %d votos \n", i, votos[i]);
         i++;
