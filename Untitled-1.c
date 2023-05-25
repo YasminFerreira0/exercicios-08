@@ -6,7 +6,7 @@ void main (){
     do {
         scanf("%d\n", &candidatoVoto);
         votos[candidatoVoto]++;
-    } while(candidatoVoto >= 0);
+    } while(candidatoVoto <= 0);
 
     i = 0;
 
