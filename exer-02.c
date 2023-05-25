@@ -13,7 +13,7 @@ que for lido um candidato de código negativo.
     2 2 votos
     O candidato 0 foi eleito.*/
 {
-    int candidatos, codigo, votos[candidatos], i, eleito;
+    int candidatos, codigo=-1, votos[10], i, eleito;
     candidatos = 0;
     eleito = 0;
 
