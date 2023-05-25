@@ -1,5 +1,10 @@
 #include <stdio.h>
 void main ()
+/*Faça um programa que preencha dois vetores, A e B, com vinte caracteres cada. A
+seguir, troque o 1o elemento de A com o 20o de B, o 2o de A com o 19o de B, e
+assim por diante, até trocar o 20o de A com o 1o de B. Mostre os vetores antes e
+depois da troca.*/
+
 {
     char A[20], B[20], aux;
     int i, j;
@@ -13,7 +18,7 @@ void main ()
 
     printf("Informe um valor para B: \n");
     for (j=0;j<20;j++){
-        printf("%d%c caracter: ", i+1, 167);
+        printf("%d%c caracter: ", j+1, 167);
         fflush(stdin);
         scanf("%c", &B[j]);
     }
